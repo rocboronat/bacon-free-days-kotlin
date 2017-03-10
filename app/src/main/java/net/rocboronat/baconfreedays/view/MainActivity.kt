@@ -1,9 +1,14 @@
-package net.rocboronat.baconfreedays
+package net.rocboronat.baconfreedays.view
 
 import android.os.Bundle
 import android.preference.PreferenceManager
 import android.support.v7.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
+import net.rocboronat.baconfreedays.R
+import net.rocboronat.baconfreedays.infrastucture.Clock
+import net.rocboronat.baconfreedays.repository.SharedPreferencesBaconRepository
+import net.rocboronat.baconfreedays.usecase.LastBaconDate
+import net.rocboronat.baconfreedays.usecase.UpdateBaconDate
 import java.util.*
 
 class MainActivity : AppCompatActivity(), MainPresenter.View {

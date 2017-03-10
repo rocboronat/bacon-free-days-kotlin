@@ -1,5 +1,7 @@
-package net.rocboronat.baconfreedays
+package net.rocboronat.baconfreedays.view
 
+import net.rocboronat.baconfreedays.usecase.LastBaconDate
+import net.rocboronat.baconfreedays.usecase.UpdateBaconDate
 import java.util.*
 
 class MainPresenter(val view: View,

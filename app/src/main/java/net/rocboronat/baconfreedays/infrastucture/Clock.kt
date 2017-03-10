@@ -1,4 +1,4 @@
-package net.rocboronat.baconfreedays
+package net.rocboronat.baconfreedays.infrastucture
 
 import java.util.*
 

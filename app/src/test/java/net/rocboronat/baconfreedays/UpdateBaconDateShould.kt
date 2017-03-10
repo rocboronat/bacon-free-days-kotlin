@@ -2,6 +2,9 @@ package net.rocboronat.baconfreedays
 
 import com.nhaarman.mockito_kotlin.verify
 import junit.framework.Assert.assertEquals
+import net.rocboronat.baconfreedays.infrastucture.Clock
+import net.rocboronat.baconfreedays.repository.BaconRepository
+import net.rocboronat.baconfreedays.usecase.UpdateBaconDate
 import org.junit.Before
 import org.junit.Test
 import org.mockito.Mock

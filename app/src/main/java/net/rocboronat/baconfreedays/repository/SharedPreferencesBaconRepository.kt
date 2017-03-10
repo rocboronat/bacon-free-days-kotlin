@@ -1,4 +1,4 @@
-package net.rocboronat.baconfreedays
+package net.rocboronat.baconfreedays.repository
 
 import android.content.SharedPreferences
 import java.util.*

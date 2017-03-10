@@ -1,6 +1,9 @@
 package net.rocboronat.baconfreedays
 
 import junit.framework.Assert.assertEquals
+import net.rocboronat.baconfreedays.infrastucture.Clock
+import net.rocboronat.baconfreedays.repository.BaconRepository
+import net.rocboronat.baconfreedays.usecase.LastBaconDate
 import org.junit.Before
 import org.junit.Test
 import org.mockito.Mock

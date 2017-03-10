@@ -1,5 +1,7 @@
-package net.rocboronat.baconfreedays
+package net.rocboronat.baconfreedays.usecase
 
+import net.rocboronat.baconfreedays.repository.BaconRepository
+import net.rocboronat.baconfreedays.infrastucture.Clock
 import java.util.*
 
 class LastBaconDate(val clock: Clock, val baconRepository: BaconRepository) {
